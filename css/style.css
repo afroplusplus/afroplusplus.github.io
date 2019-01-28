@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html{
+	font-family: 'Quicksand', sans-serif;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -24,7 +29,6 @@ p {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
-  background-color: black;
 }
   .parallax-container .section {
     width: 100%;
@@ -58,5 +62,14 @@ footer.page-footer {
 }
 
 #download-button{
-  border: 1px solid white;
+  border-radius: 50px;
+}
+
+h1{
+  border: 1px solid yellow;
+}
+
+.main-title{
+  padding: 20px;
+  border-radius: 100px;
 }
