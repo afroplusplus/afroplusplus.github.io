@@ -21,7 +21,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: yellow;
 }
 
 .parallax-container {
@@ -77,4 +77,8 @@ h1{
 	font-size: 28px;
 	padding: 25px;
 	margin-bottom: 20px;
+}
+.btn-floating{
+	padding: 0;
+	width: 55px;
 }
