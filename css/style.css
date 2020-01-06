@@ -66,9 +66,12 @@ footer.page-footer {
 }
 
 h1{
-  border: 1px solid yellow;
+  border: 1px solid black;
 }
 
+h5 {
+  font-weight: bold;
+}
 .main-title{
   padding: 20px;
   border-radius: 100px;
@@ -80,4 +83,16 @@ h1{
 }
 .btn-floating{
 	padding: 0;
+}
+
+.contact-link {
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 20px;
 }
